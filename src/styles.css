@@ -1,0 +1,54 @@
+body{
+  font-family:monospace;margin:0;
+}
+
+.cnetimg{
+  height:250px;width:100%;
+}
+.mainheading{
+  text-align:center;font-size:30px;background-color: aquamarine;
+}
+.heading2{
+  text-decoration: underline;text-align:center;font-size:30px;
+}
+.information-box-and-img{
+  display:flex;margin-bottom:50px;
+}
+.aboutheading{
+  font-size:20px;font-weight:bold;margin:0px;margin-left:20px;
+}
+.information{
+  margin:20px;font-size:15px; 
+}
+.informationpic{
+  width:50%;
+}
+#informationpic{
+  object-fit: cover;width:100%;
+}
+#informationbox{
+  width:50%;
+}
+.techlist{
+  display:flex;justify-content: center;
+}
+.techlistdiv{
+  width:300px;border:2px solid rgb(77, 34, 183);
+  padding:10px 25px;border-radius:4px;
+ margin-bottom:50px;
+}
+.footer{
+  background-color:lightgray;font-weight:bold; display:flex;justify-content: center;
+
+}
+.footer dl{
+  display:flex;
+}
+.footer dt{
+ margin-left:10px;margin-right:10px;text-decoration: underline;
+}
+
+.trademark p{
+  margin:0;font-size:20px;background-color: rgb(72, 72, 72);
+  color:white;
+}
